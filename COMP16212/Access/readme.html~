@@ -1,0 +1,33 @@
+<HTML>
+<TITLE>Java Accessibility Tools</TITLE>
+
+<BODY>
+<H2>Jaccesshelper</H2>
+
+The Jaccesshelper tool is installed locally. To use jaccesshelper,  simply type:
+
+<CENTER>
+<CODE>jahelper</CODE>
+</CENTER>
+From  `Java Accessiblity Helper', select `New Test Set' from the
+File menu.
+<P>
+On `Test Set Properties' you will need to edit the Class Path and add
+the Application Class. To run class <CODE>SDBGUI</CODE>, enter
+<CODE>SDBGUI</CODE> as the Application Class, then give its location
+by editing the Class Path and inserting the path to
+<CODE>SDBGUI</CODE>. You will also need to add any other components of
+the Class Path which you use, for example for
+<CODE>MP3Player.jar</CODE>.
+<P>
+You should now be able to start generating tests.
+<P>
+See <A HREF="
+http://java.sun.com/developer/earlyAccess/jaccesshelper/docs/index.html">the
+Sun Java website</A> for further information, documentation,
+downloads.
+<P>
+If you have problems please contact: Alan Williams
+<A HREF="mailto:alanw@cs.man.ac.uk"> (email:alanw@cs.man.ac.uk)</A>
+</BODY>
+</HTML>
