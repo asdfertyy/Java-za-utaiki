@@ -1,0 +1,28 @@
+
+<!-- DTD for marking scheme files used by labprint -->
+
+<!ELEMENT marking-scheme (course, exercise, title, file*, comment*, question*,mark-item*)>
+<!ELEMENT course      (#PCDATA)>
+<!ELEMENT exercise    (#PCDATA)>
+<!ATTLIST exercise receipt  (yes|no) "no">
+<!ELEMENT title (#PCDATA)>
+
+<!ELEMENT file    (#PCDATA)>
+<!ATTLIST file type (opt|comp) "comp">
+<!ATTLIST file action (diff|print|noprint) "print">
+<!-- labprint attribute for backwards compatibility only -->
+<!ATTLIST file labprint (diff|print|noprint) "print">
+<!ATTLIST file esubmit (yes|no) "yes">
+<!-- submit attribute for backwards compatibility only -->
+<!ATTLIST file submit (yes|no) "yes">
+
+<!ELEMENT comment    (#PCDATA)>
+<!ELEMENT text    (#PCDATA)>
+<!ELEMENT mark    (#PCDATA)>
+
+<!ELEMENT question  (text, mark) >
+<!ATTLIST question type (box|short|long) "short">
+
+
+<!ELEMENT mark-item  (text, mark, mark-sub-item*) >
+<!ELEMENT mark-sub-item  (text, mark) >

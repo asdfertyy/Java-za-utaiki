@@ -1,0 +1,13 @@
+? run-all-tests
+? task1.6/run-tests
+? task1.6/HelloWorld.java
+? task1.7/run-tests
+? task1.7/HelloSolarSystem.java
+? task2.2/run-tests
+? task2.2/HelloWorld.java
+? task2.3/run-tests
+? task2.3/Fortune.java
+? task2.4/run-tests
+? task2.4/ManchesterWeather.java
+? task2.5/run-tests
+? task2.5/HelloFamily.java

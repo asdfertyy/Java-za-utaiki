@@ -1,0 +1,10 @@
+? run-all-tests
+? task10.5/run-tests
+? task10.5/AddQuadPoly.java
+? task10.5/QuadPoly.java
+? task11.2/run-tests
+? task11.2/Point.java
+? task11.2/Circle.java
+? task11.2/Triangle.java
+? task11.2/Rectangle.java
+? task11.2/ShapeShift.java

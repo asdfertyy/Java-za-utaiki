@@ -1,0 +1,12 @@
+<!ELEMENT marking-scheme (course, exercise, title, file*, comment*, mark-item*)>
+<!ELEMENT course      (#PCDATA)>
+<!ELEMENT exercise    (#PCDATA)>
+<!ATTLIST exercise receipt  (yes|no) "no">
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT file    (#PCDATA)>
+<!ATTLIST file type (opt|comp) "comp">
+<!ATTLIST file action (diff|print) "print">
+<!ELEMENT comment    (#PCDATA)>
+<!ELEMENT mark-item  (text, mark) >
+<!ELEMENT text    (#PCDATA)>
+<!ELEMENT mark    (#PCDATA)>

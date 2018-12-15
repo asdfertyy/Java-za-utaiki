@@ -1,0 +1,25 @@
+How can you have run-tests for a program that accepts standard input?
+The answer is to use a bash `here document'. For example:
+
+$ java ProgramName << EOI
+put your
+standard input here
+on as many
+lines as you need
+as though you
+are typing it
+into the program.
+EOI
+
+The word `EOI' can be any word you choose: you specify it after the << and
+then use it to mark the end of the input. You must have no leading or trailing
+spaces on the line that ends the input.
+
+For example:
+
+$ java ShapeShift << END
+1
+0 0
+1
+2 2
+END

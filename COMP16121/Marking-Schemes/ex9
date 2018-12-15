@@ -1,0 +1,10 @@
+? run-all-tests
+? task13.7/run-tests
+? task13.7/StopClock.java
+? task13.8/run-tests
+? task13.8/GCD.java
+? task13.8/MyMath.java
+? task13.9/run-tests
+? task13.9/StopClock.java
+? task13.12/run-tests
+? task13.12/ThreeWeights.java

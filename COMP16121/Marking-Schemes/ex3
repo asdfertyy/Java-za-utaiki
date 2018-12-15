@@ -1,0 +1,13 @@
+? run-all-tests
+? task4.2/run-tests
+? task4.2/MaxTwoDoubles.java
+? task4.3/run-tests
+? task4.3/DegreeCategory.java
+? task4.4/run-tests
+? task4.4/PassFailDistinction.java
+? task5.2/run-tests
+? task5.2/MinimumTankSize.java
+? task5.3/run-tests
+? task5.3/LargestSquare.java
+? task5.5/run-tests
+? task5.5/MinimumBitWidth.java
