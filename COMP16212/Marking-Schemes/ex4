@@ -1,0 +1,5 @@
+? run-all-tests
+? task18.2/run-tests
+? task18.2/CheckSum.java
+? task18.3/run-tests
+? task18.3/WordCount.java

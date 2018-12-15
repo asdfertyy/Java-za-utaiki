@@ -1,0 +1,9 @@
+? run-all-tests
+? task20.4/run-tests
+? task20.4/MinMaxArray.java
+? task20.4/TestMinMaxArray.java
+? task21.2/run-tests
+? task21.2/StreetOrder.java
+? task21.3/run-tests
+? task21.3/DeliveryHouseDetails.java
+? task21.3/StreetOrder.java
